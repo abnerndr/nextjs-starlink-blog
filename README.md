@@ -1,52 +1,48 @@
-# Radiant
+# Blog SpaceX - Next.js
 
-Radiant is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org), with a blog powered by [Sanity](https://www.sanity.io).
+## Sobre o Projeto
+Este projeto é um blog desenvolvido para compartilhar informações sobre a SpaceX, com foco na Starlink. O blog foi criado utilizando **Next.js**, **Tailwind CSS** e **Node.js**, proporcionando uma experiência moderna, responsiva e otimizada para os usuários.
 
-## Getting started
+## Funcionalidades
+- Página informativa sobre a história da Starlink
+- Layout responsivo utilizando Tailwind CSS
+- Backend com Node.js para manipulação de dados
+- Estrutura otimizada para SEO com Next.js
 
-To get started with this template, first install the npm dependencies:
+## Tecnologias Utilizadas
+- [Next.js](https://nextjs.org/) - Framework React para renderização otimizada
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para estilização
+- [Node.js](https://nodejs.org/) - Ambiente de execução para o backend
 
-```bash
-npm install
-```
+## Página "Sobre"
+### A História da Starlink
+A **Starlink** foi fundada em 2015 como uma divisão da **SpaceX**, com o objetivo de oferecer **internet de alta velocidade** para áreas remotas e desatendidas ao redor do mundo. Seus fundadores, liderados por **Elon Musk**, tiveram a visão de criar uma **rede global de satélites** para democratizar o acesso à informação.
 
-Next, create a new Sanity project to power the blog within this template:
+As operações começaram em **Hawthorne, Califórnia**, e os primeiros satélites foram lançados em 2019. Desde então, a empresa tem expandido continuamente, alcançando **milhões de usuários em mais de 40 países**. Com um portfólio robusto e uma abordagem inovadora, a **Starlink continua conectando comunidades e transformando vidas**.
 
-```bash
-npm create sanity@latest -- --env=.env.local --create-project "Radiant Blog" --dataset production
-```
+## Como Rodar o Projeto
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/abnerndr/nextjs-starlink-blog.git
+   cd nextjs-starlink-blog
+   ```
 
-This will prompt you to create a new Sanity account if you don't have one already. When asked "Would you like to add configuration files for a Sanity project in this Next.js folder?", choose "n".
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-Next, optionally import the demo seed data for the blog:
+3. Execute o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npx sanity@latest dataset import seed.tar.gz
-```
+4. Acesse o blog no navegador: [http://localhost:3000](http://localhost:3000)
 
-Next, run the development server:
+## Informações Acadêmicas
+- **Faculdade:** PUCPR (Pontifícia Universidade Católica do Paraná)
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Aluno:** Abner André Ananias
 
-```bash
-npm run dev
-```
-
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
-
-To manage your blog content, visit the embedded Sanity Studio at [http://localhost:3000/studio](http://localhost:3000/studio).
-
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
-
-## License
-
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [Sanity](https://www.sanity.io) - the Sanity website
+---
+Projeto desenvolvido para fins acadêmicos.
